@@ -22,6 +22,7 @@ cd tele-go-m
 But before you begin create a `.env` file to the root directory and add your bot api key for testing:
 ```
 TOKEN=<add your_bot_token here>
+PORT=3000
 ```
 Now run the code:
 ```
@@ -39,9 +40,9 @@ ngrok http 3000
 ```
 https://api.telegram.org/bot<your_bot_token>/setWebhook?url=<your_https_url_ngrok_provides>
 ```
-| this is essentially connecting your bot with the telegram server 
+| this is essentially connecting your bot with the telegram server through tele-go-m code
 
-__Congratss__ Your bot is not ready to chat with you. Just type telegom or any letter in it and the bot replies with hello.
+__Congratss__ Your bot is now ready to chat with you. Type '/' commands to start chatting.
 
 - To remove the webhook url just type 
 
